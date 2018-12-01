@@ -1,1 +1,1 @@
-global.roomPlanArray[]
+global.roomPlanArray[0,0]=0

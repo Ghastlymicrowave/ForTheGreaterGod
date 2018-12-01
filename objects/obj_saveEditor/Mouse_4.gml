@@ -1,16 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_plan = 0
+room_plan = ""
 
-i = 0
-while(i<=ds_list_size(global.editorlist)){
 ii=0
-room_plan = string(room_plan)+": "
-repeat(6){
-room_plan = string(room_plan)+string(ds_list_find_value(i,ii))+", "
+repeat(ds_list_size(global.editorlist)){
+room_plan = string(room_plan)+string(ds_list_find_value(global.editorlist,ii))+", "
 ii++
-}
-i++
-room_plan = string(room_plan)+"|"+string(i)
 }
 show_debug_message(room_plan);
