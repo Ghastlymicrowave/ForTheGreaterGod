@@ -1,28 +1,28 @@
 {
-    "id": "8dd017ec-f24f-4241-85bf-468748809bd8",
+    "id": "2b63f716-9bce-46de-9a58-ec74b399da4e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_cameraPlace",
+    "name": "obj_cameraFollowing",
     "eventList": [
         {
-            "id": "69d76552-2557-4e47-9577-bcb935481f27",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "8dd017ec-f24f-4241-85bf-468748809bd8"
-        },
-        {
-            "id": "f78680d5-7c30-4acc-b810-c6e318d283f1",
+            "id": "cd628281-62d5-4de2-852a-917034f5309d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "8dd017ec-f24f-4241-85bf-468748809bd8"
+            "m_owner": "2b63f716-9bce-46de-9a58-ec74b399da4e"
+        },
+        {
+            "id": "caeea2c3-ef2a-421c-a74a-5da4a1413f00",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "2b63f716-9bce-46de-9a58-ec74b399da4e"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

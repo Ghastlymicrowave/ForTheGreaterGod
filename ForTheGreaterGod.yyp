@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "2b63f716-9bce-46de-9a58-ec74b399da4e",
+            "Value": {
+                "id": "b044baf9-a83d-48ae-aae2-f02f8ccd2b5e",
+                "resourcePath": "objects\\obj_cameraFollowing\\obj_cameraFollowing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e5ab24e-f2b9-4e53-837e-43f30fce2052",
             "Value": {
                 "id": "e4c8a5ec-4d85-42b1-bc92-d57b8ddba124",
@@ -98,7 +106,7 @@
             "Key": "3c959a11-5758-4da5-8231-4c8dedd8c383",
             "Value": {
                 "id": "b7fef585-4388-4520-9fa3-b8d1fa069858",
-                "resourcePath": "sprites\\hitbox_circle\\hitbox_circle.yy",
+                "resourcePath": "sprites\\hitbox_smallsquare\\hitbox_smallsquare.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -220,6 +228,14 @@
                 "id": "615b8ff6-b41a-494d-91f5-8e01d9895377",
                 "resourcePath": "views\\8d746534-a476-4847-bb61-3521618ce033.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8dd017ec-f24f-4241-85bf-468748809bd8",
+            "Value": {
+                "id": "71c3bd7c-02ab-4892-a34d-fa3974189917",
+                "resourcePath": "objects\\obj_cameraPlace\\obj_cameraPlace.yy",
+                "resourceType": "GMObject"
             }
         },
         {
