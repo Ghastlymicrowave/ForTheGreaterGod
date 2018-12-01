@@ -1,5 +1,5 @@
 x=obj_player.x
-y=obj_player.y
+y=obj_player.y-7
 speed=25
 direction = point_direction(x,y,mouse_x,mouse_y)
 motion_set(direction,speed)
