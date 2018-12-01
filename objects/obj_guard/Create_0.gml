@@ -1,4 +1,4 @@
-angle = 40
+angle = 45
 tick = -1
 dir=0
 ticka=-1
