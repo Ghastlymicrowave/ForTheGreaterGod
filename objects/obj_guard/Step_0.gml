@@ -53,6 +53,7 @@ seen2tick++
 if seen2tick=120 { playerSeen=0; direction = direction-180;seen2tick=0;}
 break;
 case 3:
+speed = 7
 direction = directionToPlayer
 lastDirectionToPlayer=directionToPlayer
 if (!(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle))) {
