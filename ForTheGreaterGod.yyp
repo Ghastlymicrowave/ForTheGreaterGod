@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "c20a200a-88b9-4875-8768-b73226884a8d",
+            "Value": {
+                "id": "10a08d16-94bc-4f3b-8742-3c92777e582f",
+                "resourcePath": "objects\\obj_roomBuilder\\obj_roomBuilder.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c67a316b-7e87-4ebb-8152-2fac4a27f3a7",
             "Value": {
                 "id": "4b7080b5-42a8-401a-8b59-34567b5dc785",
@@ -410,7 +418,7 @@
             "Key": "f760b9f8-2e27-4263-a398-0bd5bb9fa46e",
             "Value": {
                 "id": "a3ef7d4b-39b3-4aac-86d3-4519c5ea1abf",
-                "resourcePath": "scripts\\scr_rooms_plan_initialize\\scr_rooms_plan_initialize.yy",
+                "resourcePath": "scripts\\scr_rooms_build\\scr_rooms_build.yy",
                 "resourceType": "GMScript"
             }
         }
