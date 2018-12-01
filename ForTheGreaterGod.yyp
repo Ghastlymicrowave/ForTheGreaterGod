@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "c592cb61-e810-453c-9056-627f2e314969",
+            "Value": {
+                "id": "48206418-b6a1-4be2-9cdc-0b665b0f8c1d",
+                "resourcePath": "sprites\\spr_pickupHitbox\\spr_pickupHitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c67a316b-7e87-4ebb-8152-2fac4a27f3a7",
             "Value": {
                 "id": "4b7080b5-42a8-401a-8b59-34567b5dc785",
