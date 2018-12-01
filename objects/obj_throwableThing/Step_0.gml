@@ -7,7 +7,7 @@ y = obj_playerPickupHitbox.y+obj_playerPickupHitbox.vspeed
 if mouse_check_button_pressed(mb_right){
 
 direction = obj_player.dir
-speed = 20
+speed = 1
 if !place_meeting(x+hspeed*2,y+vspeed*2,obj_obstacle){
 x+=hspeed*2
 y+=vspeed*2
