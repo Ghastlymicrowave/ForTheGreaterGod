@@ -4,9 +4,9 @@ hinput= keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
 //if image_angle > 360 then image_angle -= 360
 if ((abs(vinput))||(abs(hinput))){
-	if spd <8 then spd ++
+	if spd <6 then spd ++
 	if !keyboard_check(vk_shift){
-	if spd > 3 then spd = 5} else
+	if spd > 4 then spd = 4} else
 if lastvinput=0 && lasthinput=0{
 	spd = 5
 }
@@ -21,9 +21,10 @@ hinput = lasthinput
 
 vspeed = vinput * spd
 hspeed = hinput * spd
-if spd > spd{
+if speed > spd{
 while speed > spd {
 speed --
+show_debug_message(string(speed) +" "+ string(spd))
 }
 vspeed = floor(vspeed)
 hspeed = floor(hspeed)
