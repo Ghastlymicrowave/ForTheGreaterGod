@@ -397,10 +397,18 @@
                 "resourcePath": "views\\f634d8d5-4111-4a9e-b2e4-09efeb247b90.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "f760b9f8-2e27-4263-a398-0bd5bb9fa46e",
+            "Value": {
+                "id": "a3ef7d4b-39b3-4aac-86d3-4519c5ea1abf",
+                "resourcePath": "scripts\\scr_rooms_plan_initialize\\scr_rooms_plan_initialize.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
-        
+        "f760b9f8-2e27-4263-a398-0bd5bb9fa46e"
     ],
     "tutorial": ""
 }
