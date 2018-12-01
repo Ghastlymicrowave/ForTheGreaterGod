@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "5b708edf-e149-43b7-8706-23ebf31e0b53",
+            "Value": {
+                "id": "f836251b-a2d7-448e-8a1b-3312faa2443b",
+                "resourcePath": "objects\\obj_pushablePhysicsObj\\obj_pushablePhysicsObj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5dcfb7e1-aff7-4b00-bf2e-d12851504dd0",
             "Value": {
                 "id": "4e2b202c-d631-4133-86be-b37cd0f9e13d",
