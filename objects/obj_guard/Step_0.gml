@@ -3,7 +3,7 @@ directionToPlayer = point_direction(x,y,obj_player.x,obj_player.y)
 
 //direction = directionToPlayer
 
-if (directionToPlayer > direction-angle && directionToPlayer < direction+angle){
+if (directionToPlayer > dir-angle && directionToPlayer < dir+angle){
 if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone	{
 	
 	show_debug_message("seen")
@@ -56,7 +56,7 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
 
 //at the end of everything
 image_angle=0
-
+if speed!=0 then dir = direction
 //while abs(direction) > 360{
 //direction -= 360*sign(direction)	
 //}
