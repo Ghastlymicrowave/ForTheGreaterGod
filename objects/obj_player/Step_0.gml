@@ -4,11 +4,11 @@ hinput= keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
 //if image_angle > 360 then image_angle -= 360
 if ((abs(vinput))||(abs(hinput))){
-	if spd <6 then spd ++
+	if spd <8 then spd ++
 	if !keyboard_check(vk_shift)||holding=1{
-	if spd > 4 then spd = 4} else
+	if spd > 6 then spd = 6} else
 if lastvinput=0 && lasthinput=0{
-	spd = 5
+	spd = 6
 }
 lastvinput = vinput
 lasthinput = hinput
