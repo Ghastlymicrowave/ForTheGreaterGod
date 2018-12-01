@@ -1,1 +1,1 @@
-global.roomPlanArray[]
+//global.roomPlanArray[]
