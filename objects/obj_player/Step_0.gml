@@ -5,7 +5,7 @@ hinput= keyboard_check(ord("D")) - keyboard_check(ord("A"))
 //if image_angle > 360 then image_angle -= 360
 if ((abs(vinput))||(abs(hinput))){
 	if spd <6 then spd ++
-	if !keyboard_check(vk_shift)||holding=1{
+	if !keyboard_check(vk_shift){
 	if spd > 4 then spd = 4} else
 if lastvinput=0 && lasthinput=0{
 	spd = 5
@@ -43,4 +43,3 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
 	vspeed = floor(abs(vspeed))*sign(vspeed)
 }
 
-if speed!=0 then dir = direction
