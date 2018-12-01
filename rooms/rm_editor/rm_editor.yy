@@ -8,7 +8,6 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "d50ced4e-373d-4553-83a1-e6d11d9cb31a",
-        "218cd9ff-d63d-4970-aefe-6141c0a3192b",
         "a5feeb3c-d4fa-4817-b590-3d622a639b96"
     ],
     "IsDnD": false,
@@ -21,10 +20,10 @@
 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_5B237E96","id": "ea453a2f-bc87-48ca-88d6-80ebc59d5854","animationFPS": 15,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 0,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 5,"scaleY": 5,"mvc": "1.0","spriteId": "33bb2a55-c12e-43fe-877a-1c20c6c254da","userdefined_animFPS": false,"x": 224,"y": 160}
             ],
             "depth": 0,
-            "grid_x": 32,
+            "grid_x": 34,
             "grid_y": 32,
             "hierarchyFrozen": false,
-            "hierarchyVisible": true,
+            "hierarchyVisible": false,
             "inheritLayerDepth": false,
             "inheritLayerSettings": false,
             "inheritSubLayers": false,
@@ -37,7 +36,7 @@
             "modelName": "GMRAssetLayer",
             "mvc": "1.0",
             "userdefined_depth": false,
-            "visible": true
+            "visible": false
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
@@ -53,7 +52,6 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_7F5F6A5C","id": "218cd9ff-d63d-4970-aefe-6141c0a3192b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7F5F6A5C","objId": "bac3fbc9-9267-4d99-891e-4b48a147def5","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 448,"y": 416},
 {"name": "inst_4CA18691","id": "a5feeb3c-d4fa-4817-b590-3d622a639b96","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4CA18691","objId": "3658ee30-e5c2-4fc1-add4-7b91198a8044","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 672,"y": 384}
             ],
             "layers": [
