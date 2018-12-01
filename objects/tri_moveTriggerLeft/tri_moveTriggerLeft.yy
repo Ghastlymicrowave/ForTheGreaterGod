@@ -1,23 +1,14 @@
 {
-    "id": "947e3ef9-3610-4a5c-a666-2847a034d3c1",
+    "id": "5dcfb7e1-aff7-4b00-bf2e-d12851504dd0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_obstacle",
+    "name": "tri_moveTriggerLeft",
     "eventList": [
-        {
-            "id": "b6465dbe-a4ac-4bc3-b4c6-b6aa7ea20ba8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "947e3ef9-3610-4a5c-a666-2847a034d3c1"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b86ce623-e5f6-4e60-82f3-b9cadf4724ca",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "34b751ab-e02e-4b28-8e16-ba88b1df5bd3",
+    "spriteId": "592d7465-fa66-4def-8679-3e07e37882e5",
     "visible": true
 }

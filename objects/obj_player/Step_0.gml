@@ -2,6 +2,7 @@ vinput= keyboard_check(ord("S")) - keyboard_check(ord("W"))
 hinput= keyboard_check(ord("D")) - keyboard_check(ord("A"))
 
 
+//if image_angle > 360 then image_angle -= 360
 if ((abs(vinput))||(abs(hinput))){
 if spd <10 then spd ++	
 if lastvinput=0 && lasthinput=0{
@@ -10,15 +11,21 @@ if lastvinput=0 && lasthinput=0{
 lastvinput = vinput
 lasthinput = hinput
 } else{
-if spd > 0 then spd --	
+if spd > 0 then spd =spd -2
+else if spd <0 then spd =0
 vinput = lastvinput
 hinput = lasthinput
 }
 
 vspeed = vinput * spd
 hspeed = hinput * spd
-
-
+if spd > spd{
+while speed > spd {
+speed --
+}
+vspeed = floor(vspeed)
+hspeed = floor(hspeed)
+}
 while place_meeting(x,y+vspeed,obj_obstacle){
 	vspeed -= sign(vspeed)
 }
@@ -32,3 +39,4 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
 	hspeed = floor(abs(hspeed))*sign(hspeed)
 	vspeed = floor(abs(vspeed))*sign(vspeed)
 }
+

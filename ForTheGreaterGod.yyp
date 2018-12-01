@@ -90,8 +90,16 @@
             "Key": "504ebc04-5ea0-4f6b-8027-50e4d7b362e0",
             "Value": {
                 "id": "a1155163-fe4f-40e9-9bac-e1f5d852d0e2",
-                "resourcePath": "objects\\obj_obstacle\\obj_obstacle.yy",
+                "resourcePath": "objects\\obj_guard\\obj_guard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "592d7465-fa66-4def-8679-3e07e37882e5",
+            "Value": {
+                "id": "2a6bab4e-ec66-46ba-b53c-ff38145cb28d",
+                "resourcePath": "sprites\\spr_placeholder1111\\spr_placeholder1111.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -100,6 +108,14 @@
                 "id": "61c59b77-39eb-41c3-9fd1-c365cb9c6c64",
                 "resourcePath": "views\\5ab3aea7-8bd5-4512-a23b-25bca506c9bf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5dcfb7e1-aff7-4b00-bf2e-d12851504dd0",
+            "Value": {
+                "id": "4e2b202c-d631-4133-86be-b37cd0f9e13d",
+                "resourcePath": "objects\\tri_moveTriggerLeft\\tri_moveTriggerLeft.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -116,6 +132,14 @@
                 "id": "4ec6b659-f017-4c3b-bacd-01503e920cd6",
                 "resourcePath": "views\\6729aa28-dfb8-4ceb-8cdc-b8ee28cbf9a1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "74b017a0-5400-43cb-8c86-6a1b92010ece",
+            "Value": {
+                "id": "5fd6715e-0e1e-4c71-a2fa-35b130389311",
+                "resourcePath": "objects\\tri_moveTriggerDown\\tri_moveTriggerDown.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -151,6 +175,22 @@
             }
         },
         {
+            "Key": "947e3ef9-3610-4a5c-a666-2847a034d3c1",
+            "Value": {
+                "id": "e09d6d57-1ba4-4f34-8cea-d08725c65ce5",
+                "resourcePath": "objects\\obj_obstacle\\obj_obstacle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a24cb1ab-56ec-4cc5-881a-ec70175ab7a5",
+            "Value": {
+                "id": "4e96390b-672b-43fb-82f9-3e8d024f70c3",
+                "resourcePath": "sprites\\spr_placeholder1\\spr_placeholder1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a6a0490a-bf53-4a99-9a8a-9385eefd2ec1",
             "Value": {
                 "id": "71a2c52e-cf32-4cea-8eb4-34a1da6bcd45",
@@ -175,11 +215,51 @@
             }
         },
         {
+            "Key": "b86ce623-e5f6-4e60-82f3-b9cadf4724ca",
+            "Value": {
+                "id": "7e9ede8c-9f7a-45a8-b77e-fd4c6d408392",
+                "resourcePath": "objects\\prnt_trigger\\prnt_trigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b976ab1a-9255-4ae8-b5fc-8127f4054438",
+            "Value": {
+                "id": "4ceafe8b-4201-45c7-befe-83f265f4626b",
+                "resourcePath": "sprites\\spr_placeholder111\\spr_placeholder111.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c67a316b-7e87-4ebb-8152-2fac4a27f3a7",
+            "Value": {
+                "id": "4b7080b5-42a8-401a-8b59-34567b5dc785",
+                "resourcePath": "objects\\tri_moveTriggerRight\\tri_moveTriggerRight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f9f81d21-67c0-4691-89cc-d2ced75a2084",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d3c9edf6-06e9-473e-b5e6-f9a78b401ec4",
+            "Value": {
+                "id": "c0339a68-1e61-435d-b044-8148c315cbd5",
+                "resourcePath": "sprites\\spr_placeholder11\\spr_placeholder11.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db4a9fb3-73b2-4484-bea1-1a69351d13f3",
+            "Value": {
+                "id": "565813e6-57e4-4bde-9718-b5b0bd24faf7",
+                "resourcePath": "objects\\tri_moveTriggerUp\\tri_moveTriggerUp.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -1,23 +1,14 @@
 {
-    "id": "947e3ef9-3610-4a5c-a666-2847a034d3c1",
+    "id": "db4a9fb3-73b2-4484-bea1-1a69351d13f3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_obstacle",
+    "name": "tri_moveTriggerUp",
     "eventList": [
-        {
-            "id": "b6465dbe-a4ac-4bc3-b4c6-b6aa7ea20ba8",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "947e3ef9-3610-4a5c-a666-2847a034d3c1"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "b86ce623-e5f6-4e60-82f3-b9cadf4724ca",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "34b751ab-e02e-4b28-8e16-ba88b1df5bd3",
+    "spriteId": "a24cb1ab-56ec-4cc5-881a-ec70175ab7a5",
     "visible": true
 }
