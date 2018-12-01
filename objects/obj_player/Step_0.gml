@@ -21,6 +21,14 @@ hinput = lasthinput
 
 vspeed = vinput * spd
 hspeed = hinput * spd
+if knockbackTime >0{
+	speed = knockbackTime
+	direction =knockbackDir
+	dir = knockbackDir
+	hspeed=round(hspeed)
+	vspeed=round(vspeed)
+	knockbackTime--
+}
 if speed > spd{
 while speed > spd {
 speed --
@@ -56,4 +64,10 @@ if place_meeting(x+hspeed,y+vspeed,obj_throwableThing){
 		hspeed = floor(abs(hspeed))*sign(hspeed)
 	vspeed = floor(abs(vspeed))*sign(vspeed)}
 	
+}
+
+if place_meeting(x,y,obj_projectile){
+var proj = instance_place(x,y,obj_projectile)	
+knockbackDir = point_direction(proj.x,proj,x,y)
+knockbackTime=20
 }
