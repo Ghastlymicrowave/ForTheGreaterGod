@@ -7,14 +7,11 @@ if (directionToPlayer > direction-angle && directionToPlayer < direction+angle){
 if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone	{
 	
 	show_debug_message("seen")
-	playerSeen = 1
 } else{
 	show_debug_message("hidden1")
-	playerSeen = 0
 	}
 }else{
 show_debug_message("hidden2")
-playerSeen = 0
 }
 
 
