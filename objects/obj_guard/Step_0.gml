@@ -50,7 +50,7 @@ while place_meeting(x+hspeed,y,obj_obstacle){
 while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
 	speed --
 	hspeed = floor(abs(hspeed))*sign(hspeed)
-	vspeed = floor(abs(vspeed))*sign(vspeed)
+	vspeed = floor(abs(vspeed))*sign(vspeed)	 
 }
 
 

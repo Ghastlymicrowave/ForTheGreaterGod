@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "3c959a11-5758-4da5-8231-4c8dedd8c383",
+            "Value": {
+                "id": "b7fef585-4388-4520-9fa3-b8d1fa069858",
+                "resourcePath": "sprites\\hitbox_circle\\hitbox_circle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3efe72c4-446e-4a64-b3d4-cbdd65de306d",
             "Value": {
                 "id": "b354ce75-f76a-4601-8c8a-d4cf05fa2c5b",
@@ -276,6 +284,14 @@
                 "id": "565813e6-57e4-4bde-9718-b5b0bd24faf7",
                 "resourcePath": "objects\\tri_moveTriggerUp\\tri_moveTriggerUp.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e8571d33-8d48-45dc-8975-227f71a8f9a3",
+            "Value": {
+                "id": "b51d46e9-699a-41dd-89ab-19fa3910ce24",
+                "resourcePath": "sprites\\spr_playerplaceholder\\spr_playerplaceholder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
