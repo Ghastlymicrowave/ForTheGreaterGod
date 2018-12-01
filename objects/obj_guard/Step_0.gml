@@ -6,14 +6,12 @@ directionToPlayer = point_direction(x,y,obj_player.x,obj_player.y)
 if (directionToPlayer > dir-angle && directionToPlayer < dir+angle){
 if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone	{
 	
-playerSeen = 1
+	show_debug_message("seen")
 } else{
-
-playerSeen = 0
+	show_debug_message("hidden1")
 	}
 }else{
-
-playerSeen = 0
+show_debug_message("hidden2")
 }
 
 
