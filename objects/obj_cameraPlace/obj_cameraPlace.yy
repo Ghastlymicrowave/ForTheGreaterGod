@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_cameraPlace",
     "eventList": [
-        
+        {
+            "id": "7dc11952-f4d5-48e9-81ba-92e8cfdf148d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "6bd453d2-67fe-4bd6-997d-932fe24274b6"
+        },
+        {
+            "id": "a4345c7c-efc0-4a3b-b715-25bb1169230c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "6bd453d2-67fe-4bd6-997d-932fe24274b6"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
