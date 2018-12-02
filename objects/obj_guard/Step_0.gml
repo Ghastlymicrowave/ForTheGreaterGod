@@ -113,7 +113,7 @@ if tick = -1&&place_meeting(x,y,prnt_trigger){
 	
 }
 
-if tick>0{
+if tick>0&&playerSeen=0{
     tick--
 
     if tick = 0{
