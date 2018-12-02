@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07c5d229-ee5f-4ae2-9f77-178eaa040a04",
+            "Value": {
+                "id": "82aca820-2c03-4f93-b8b3-b9ad735c2433",
+                "resourcePath": "objects\\obj_healthpack1\\obj_healthpack1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c0f81fe-5123-4275-88ec-e986b10e499b",
             "Value": {
                 "id": "1a3e20f3-5b3e-4b15-a760-6b0cec3dc74a",
@@ -163,6 +171,14 @@
             "Value": {
                 "id": "6f4091bd-e198-4c80-b1d9-ea58ae0db942",
                 "resourcePath": "objects\\obj_fullscreenButton\\obj_fullscreenButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4df4e7e2-7dc2-452c-adcd-dc0398dfdc26",
+            "Value": {
+                "id": "51f67af8-d5c7-4a51-a44a-0e3a1fb7061e",
+                "resourcePath": "objects\\obj_healthpack\\obj_healthpack.yy",
                 "resourceType": "GMObject"
             }
         },

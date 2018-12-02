@@ -1,1 +1,1 @@
-objType = "obj_room"
+objType = "obj_door"
