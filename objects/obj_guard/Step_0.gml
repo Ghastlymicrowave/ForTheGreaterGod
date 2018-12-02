@@ -114,7 +114,7 @@ break;
 
 if tick = -1&&place_meeting(x,y,prnt_trigger)&&playerSeen=0{
 	trigger = instance_place(x,y,prnt_trigger)
-	tick = 20
+	tick = 8
 	
 }
 

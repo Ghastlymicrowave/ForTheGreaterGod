@@ -1,0 +1,1 @@
+objType = "obj_guard"

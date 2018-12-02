@@ -212,3 +212,6 @@ show_debug_message("end "+ string(playerSeen))
 //	vspeed = floor(abs(vspeed))*sign(vspeed)}
 	
 //}
+dir = image_angle
+if image_angle >90 && image_angle <=270{image_xscale=-1}
+image_angle = 0
