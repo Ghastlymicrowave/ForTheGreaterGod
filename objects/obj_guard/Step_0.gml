@@ -102,8 +102,11 @@ direction = lastDirectionToPlayer;
 break;
 }
 
+if tick = -1&&place_meeting(x,y,prnt_trigger){
+	trigger = instance_place(x,y,prnt_trigger)
+	
+}
 
-/*
 if tick>0{
     tick--
 
@@ -116,7 +119,7 @@ if tick>0{
     }
 
     } else{ tick = -1}
-*/
+
 if place_meeting(x,y,obj_throwableThing){
 	
 	var throw = instance_place(x,y,obj_throwableThing)
