@@ -36,16 +36,18 @@ if ticka=0{playerSeen=3;ticka=-1}
 } else{
 	if playerSeen!=2&&playerSeen!=4{
 	 playerSeen = 0}
-//if ticka>0{
-//playerSeen=2	
-//}
+if ticka>0{
+ticka=-1
+playerSeen=2	
+}
 
     }
 }else{
 	if playerSeen =1 then playerSeen = 0
-//if ticka>0{
-//playerSeen=2	
-//}
+if ticka>0{
+	ticka=-1
+playerSeen=2	
+}
 
 }
 if playerSeen!=2 then seen2tick=0;

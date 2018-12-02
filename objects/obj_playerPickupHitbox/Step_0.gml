@@ -12,4 +12,7 @@ if place_meeting(x,y,obj_throwableThing)&&mouse_check_button(mb_left){
 var throw =instance_place(x,y,obj_throwableThing)
 throw.held =1
 obj_player.holding=1
+} else if place_meeting(x,y,obj_guard){
+	
+	
 }
