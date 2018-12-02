@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "cb288899-6116-46e2-abba-f9c534711e03",
+            "Value": {
+                "id": "b41e8f8a-d1aa-4d68-9bb9-592bdbaf96d7",
+                "resourcePath": "sprites\\spr_hood\\spr_hood.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f9f81d21-67c0-4691-89cc-d2ced75a2084",
