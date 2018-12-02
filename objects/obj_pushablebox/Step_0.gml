@@ -1,5 +1,5 @@
 if speed>0 then speed--
-if !place_meeting(x,y,prnt_actor)&&!place_meeting(x,y,prnt_enemy){
+if !place_meeting(x,y,prnt_actor){//&&!place_meeting(x,y,prnt_enemy)
 while place_meeting(x,y+vspeed,obj_obstacle)||place_meeting(x,y+vspeed,obj_pushablebox)||place_meeting(x,y+vspeed,prnt_enemy){
 	vspeed = -vspeed
 	if vspeed<1 then break
@@ -18,3 +18,4 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle)||place_meeting(x+hspeed,y+vs
 }
 }
 if speed<0 then speed =0
+//pushablebox

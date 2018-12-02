@@ -142,7 +142,7 @@ playerSeen=1
 direction = knockbackDir
 }
 if knockbackTime > 0 {
-speed = knockbackTime	
+speed = 0//knockbackTime	
 }
 
 if !place_meeting(x,y,prnt_actor){
