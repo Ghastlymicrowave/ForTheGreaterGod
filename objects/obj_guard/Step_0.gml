@@ -7,6 +7,13 @@ speed=0
 dir = directionToPlayer
 }
 
+if knockbackTime>0 then knockbackTime--
+if	dazedtime>0 then dazedtime--
+	if dazedtime>0{
+playerSeen=1
+speed=0
+}
+
 //playerseen 0 unaware, 1, noticed, 2, investigating, 3, running, 4, lost player
 //direction = directionToPlayer
 //
@@ -110,6 +117,25 @@ if tick>0{
 
     } else{ tick = -1}
 */
+if place_meeting(x,y,obj_throwableThing){
+	
+	var throw = instance_place(x,y,obj_throwableThing)
+	if throw.speed !=0{
+	knockbackTime=20
+	dazedtime=50
+	knockbackDir= throw.direction}
+}
+
+
+
+if dazedtime>0{
+playerSeen=1
+speed=0
+direction = knockbackDir
+}
+if knockbackTime > 0 {
+speed = knockbackTime	
+}
 if playerSeen <2{
 while place_meeting(x,y+vspeed,obj_obstacle){
     //vspeed -= sign(vspeed)
@@ -162,6 +188,8 @@ if speed!=0 then dir = direction
 //direction -= 360sign(direction)
 //}
 show_debug_message("end "+ string(playerSeen))
+
+
 
 //if place_meeting(x+hspeed,y+vspeed,obj_throwableThing){
 //	var throw = instance_place(x+hspeed,y+vspeed,obj_throwableThing)
