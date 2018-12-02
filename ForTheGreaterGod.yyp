@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "c6b7dfce-75e8-4c4b-b84b-808af396cb26",
+            "Value": {
+                "id": "3641af79-4c0c-4350-9746-cc874db43a8a",
+                "resourcePath": "sprites\\sp_rooms_0a\\sp_rooms_0a.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb288899-6116-46e2-abba-f9c534711e03",
             "Value": {
                 "id": "b41e8f8a-d1aa-4d68-9bb9-592bdbaf96d7",
