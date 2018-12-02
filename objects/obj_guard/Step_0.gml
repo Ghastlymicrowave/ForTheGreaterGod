@@ -135,7 +135,7 @@ if place_meeting(x,y,obj_throwableThing){
 	
 	var throw = instance_place(x,y,obj_throwableThing)
 	if throw.speed !=0{
-	knockbackTime=20
+	knockbackTime=5
 	dazedtime=240
 	knockbackDir= throw.direction}
 }
@@ -148,9 +148,12 @@ speed=0
 direction = knockbackDir
 }
 if knockbackTime > 0 {
-speed = knockbackTime	
+speed =0// knockbackTime	
 }
-if playerSeen <2&&knockbackTime=0{
+if !place_meeting(x,y,prnt_actor){
+
+if playerSeen <2&&dazedtime=0{
+	//if place_meeting(x,y,prnt_a)
 while place_meeting(x,y+vspeed,prnt_actor){
     //vspeed -= sign(vspeed)
 	//y-=vspeed
@@ -176,6 +179,7 @@ while place_meeting(x+hspeed,y+vspeed,prnt_actor){
     //hspeed = floor(abs(hspeed))sign(hspeed)
     //vspeed = floor(abs(vspeed))sign(vspeed)
 }
+
 } else{
 	while place_meeting(x,y+vspeed,prnt_actor){
     vspeed -= sign(vspeed)
@@ -194,7 +198,7 @@ while place_meeting(x+hspeed,y+vspeed,prnt_actor){
     vspeed = floor(abs(vspeed))sign(vspeed)
 }
 }
-
+}
 //at the end of everything
 image_angle=0
 if speed!=0 then dir = direction

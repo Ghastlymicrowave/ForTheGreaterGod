@@ -129,7 +129,7 @@ if place_meeting(x,y,obj_throwableThing){
 	
 	var throw = instance_place(x,y,obj_throwableThing)
 	if throw.speed !=0{
-	knockbackTime=20
+	knockbackTime=10
 	dazedtime=240
 	knockbackDir= throw.direction}
 }
@@ -142,9 +142,10 @@ playerSeen=1
 direction = knockbackDir
 }
 if knockbackTime > 0 {
-speed = knockbackTime	
+speed = 0//knockbackTime	
 }
 
+if !place_meeting(x,y,prnt_actor){
 	while place_meeting(x,y+vspeed,obj_obstacle){
     vspeed -= sign(vspeed)
     
@@ -161,7 +162,7 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
     hspeed = floor(abs(hspeed))sign(hspeed)
     vspeed = floor(abs(vspeed))sign(vspeed)
 }
-
+}
 
 //at the end of everything
 image_angle=0
