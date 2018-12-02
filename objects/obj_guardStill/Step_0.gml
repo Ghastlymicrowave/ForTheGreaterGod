@@ -53,17 +53,16 @@ speed=0;
 break;
 case 2:
 firerate=20
-speed = 3;
+speed = 0;
 //PATHFIND TO lastplayerlocation
 direction = lastDirectionToPlayer;
-hspeed = round(hspeed);
-vspeed = round(vspeed);
+
 seen2tick++
 if seen2tick=120 { playerSeen=0; direction = direction-180;seen2tick=0;}
 break;
 case 3:
 speed = 0
-if distanceToPlayer > 600 then speed = 8 else {speed = 0
+
 direction = directionToPlayer
 lastDirectionToPlayer=directionToPlayer
 
@@ -86,13 +85,13 @@ direction=directionToPlayer
 //	hspeed = round(hspeed);
 //vspeed = round(vspeed);
 break;
-}
+
 break;
 case 4:
 firerate=50
 seen4tick++
 if seen4tick=120 then {playerSeen=2; seen4tick=0;}
-speed = 5;
+speed = 0;
 //PATHFIND TO lastplayerlocation
 
 direction = lastDirectionToPlayer;
