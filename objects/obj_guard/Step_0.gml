@@ -131,13 +131,13 @@ if tick>0{
 
     } else{ tick = -1}
 
-if place_meeting(x,y,obj_throwableThing){
-	
-	var throw = instance_place(x,y,obj_throwableThing)
-	if throw.speed !=0{
-	knockbackTime=5
+if(instance_exists(obj_throwableThing)){
+var throwN = instance_nearest(x,y,obj_throwableThing)
+if place_meeting(x-throwN.hspeed,y-throwN.vspeed,throwN){
+	knockbackTime=10
 	dazedtime=240
-	knockbackDir= throw.direction}
+	knockbackDir= throwN.direction
+}
 }
 
 
