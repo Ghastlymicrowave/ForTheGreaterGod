@@ -79,7 +79,7 @@ if speed!=0 then dir = direction
 if place_meeting(x,y,obj_projectile)&&invulframes=0{
 var proj = instance_place(x,y,obj_projectile)	
 knockbackDir = proj.direction
-knockbackTime=20
+knockbackTime=15
 invulframes=60
 }
 
