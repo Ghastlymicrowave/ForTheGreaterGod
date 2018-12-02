@@ -101,6 +101,13 @@ var proj = instance_place(x,y,obj_projectile)
 knockbackDir = proj.direction
 knockbackTime=15
 invulframes=60
+hp--;
 }
 
 if invulframes>0 then invulframes--
+
+if hp=0{
+	
+speed=0
+instance_create_depth(x,y,-500,obj_deathMessage)
+}

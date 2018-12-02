@@ -53,7 +53,9 @@ playerSeen=2
 if playerSeen!=2 then seen2tick=0;
 if playerSeen!=4 then seen4tick=0;
 switch(playerSeen){
-	
+case 0:
+speed = 2
+break;
 case 1: 
 firerate=20
 speed=0;

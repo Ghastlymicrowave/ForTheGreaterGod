@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "48bb5385-4e6d-4b62-8f52-ae055cd06a1a",
+            "Value": {
+                "id": "6f4091bd-e198-4c80-b1d9-ea58ae0db942",
+                "resourcePath": "objects\\obj_fullscreenButton\\obj_fullscreenButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ed27087-04aa-4fe7-90a2-aff1eaa3e7a6",
             "Value": {
                 "id": "5805e7c1-bcdd-4629-8caf-95204fd2eac7",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "592dee0f-f56a-41a8-9e48-5ec6f6fa1064",
                 "resourcePath": "objects\\obj_playerPickupHitbox\\obj_playerPickupHitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8ca778f1-35b5-4d73-8656-4c2e12dc718c",
+            "Value": {
+                "id": "c7b189a5-333b-45ee-aa66-b196863a4e0b",
+                "resourcePath": "objects\\obj_deathMessage\\obj_deathMessage.yy",
                 "resourceType": "GMObject"
             }
         },

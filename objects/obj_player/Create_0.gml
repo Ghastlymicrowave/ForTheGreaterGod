@@ -1,4 +1,4 @@
-mask=spr_playerplaceholder
+mask_index=spr_playerplaceholder
 spd = 0
 room_speed=60
 input = false
