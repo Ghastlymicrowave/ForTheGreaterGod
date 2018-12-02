@@ -8,9 +8,9 @@ if mouse_check_button_pressed(mb_right){
 
 direction = obj_playerPickupHitbox.direction
 speed = 15
-if !place_meeting(x+hspeed*2,y+vspeed*2,obj_obstacle){
-x+=hspeed*2
-y+=vspeed*2
+if !place_meeting(x+hspeed,y+vspeed,prnt_actor){
+x+=hspeed
+y+=vspeed
 obj_player.holding=0
 held = 0
 } else{
@@ -27,19 +27,19 @@ ticka=1
 ticka--	
 }
 if bounced=1 then speed=0
-while place_meeting(x,y+vspeed,obj_obstacle){
+while place_meeting(x,y+vspeed,prnt_actor){
 	vspeed = -vspeed
 	speed--
 	speed=round(speed)
 }
 
-while place_meeting(x+hspeed,y,obj_obstacle){
+while place_meeting(x+hspeed,y,prnt_actor){
 	hspeed =-hspeed
 	speed--
 	speed=round(speed)
 }
 
-while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
+while place_meeting(x+hspeed,y+vspeed,prnt_actor){
 	speed --
 	hspeed =-hspeed
 	vspeed = -vspeed
