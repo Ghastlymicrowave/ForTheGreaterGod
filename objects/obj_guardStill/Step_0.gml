@@ -144,33 +144,7 @@ direction = knockbackDir
 if knockbackTime > 0 {
 speed = knockbackTime	
 }
-if playerSeen <2&&knockbackTime=0{
-while place_meeting(x,y+vspeed,obj_obstacle){
-    //vspeed -= sign(vspeed)
-	//y-=vspeed
-    direction-=15
-	
-}
 
-while place_meeting(x+hspeed,y,obj_obstacle){
-    //hspeed -= sign(hspeed)
-    direction-=15
-	
-	//x-=hspeed
-}
-
-while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
-    //speed --
-    direction-=15
-	//speed --
-    
-   
-	//x-=hspeed
-	//y-=vspeed
-    //hspeed = floor(abs(hspeed))sign(hspeed)
-    //vspeed = floor(abs(vspeed))sign(vspeed)
-}
-} else{
 	while place_meeting(x,y+vspeed,obj_obstacle){
     vspeed -= sign(vspeed)
     
@@ -187,7 +161,7 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
     hspeed = floor(abs(hspeed))sign(hspeed)
     vspeed = floor(abs(vspeed))sign(vspeed)
 }
-}
+
 
 //at the end of everything
 image_angle=0

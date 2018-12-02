@@ -17,4 +17,4 @@ if screenshake>0{
 	if screenshake<1 then screenshake=0
 }
 
-//if keyboard_check_pressed(ord("G")) then screenshake +=20
+if keyboard_check_pressed(ord("G")) then screenshake +=20

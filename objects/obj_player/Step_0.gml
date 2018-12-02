@@ -96,7 +96,7 @@ if place_meeting(x+hspeed,y+vspeed,obj_pushablebox){
 	
 
 
-if place_meeting(x,y,obj_projectile)&&invulframes=0{
+if place_meeting(x,y,obj_projectile)&&invulframes=0&&hp>0{
 var proj = instance_place(x,y,obj_projectile)	
 obj_cameraFollowing.screenshake +=20
 knockbackDir = proj.direction
@@ -110,7 +110,8 @@ if invulframes>0 then invulframes--
 if hp<1{
 	
 speed=0
-instance_create_depth(x,y,-500,obj_deathMessage)
+if !instance_exists(obj_deathMessage){
+instance_create_depth(x,y,-500,obj_deathMessage)}
 }
 
 

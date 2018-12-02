@@ -151,21 +151,21 @@ if knockbackTime > 0 {
 speed = knockbackTime	
 }
 if playerSeen <2&&knockbackTime=0{
-while place_meeting(x,y+vspeed,obj_obstacle){
+while place_meeting(x,y+vspeed,prnt_actor){
     //vspeed -= sign(vspeed)
 	//y-=vspeed
     direction-=15
 	
 }
 
-while place_meeting(x+hspeed,y,obj_obstacle){
+while place_meeting(x+hspeed,y,prnt_actor){
     //hspeed -= sign(hspeed)
     direction-=15
 	
 	//x-=hspeed
 }
 
-while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
+while place_meeting(x+hspeed,y+vspeed,prnt_actor){
     //speed --
     direction-=15
 	//speed --
@@ -177,17 +177,17 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
     //vspeed = floor(abs(vspeed))sign(vspeed)
 }
 } else{
-	while place_meeting(x,y+vspeed,obj_obstacle){
+	while place_meeting(x,y+vspeed,prnt_actor){
     vspeed -= sign(vspeed)
     
 }
 
-while place_meeting(x+hspeed,y,obj_obstacle){
+while place_meeting(x+hspeed,y,prnt_actor){
     hspeed -= sign(hspeed)
     
 }
 
-while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
+while place_meeting(x+hspeed,y+vspeed,prnt_actor){
     speed --
     
     hspeed = floor(abs(hspeed))sign(hspeed)
