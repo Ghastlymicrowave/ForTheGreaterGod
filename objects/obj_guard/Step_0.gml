@@ -18,7 +18,7 @@ speed=0
 //direction = directionToPlayer
 //
 if(playerSeen<3||playerSeen=4)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle)){
-if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone    {
+if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone ||collision_line(x,y,obj_player.x,obj_player.y,obj_pushablebox,true,true)=noone  {
 lastDirectionToPlayer = directionToPlayer
 if playerSeen = 0 then playerSeen = 1
 if ticka = -1 ticka=60

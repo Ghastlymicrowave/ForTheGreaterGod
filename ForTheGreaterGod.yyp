@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "1c0f81fe-5123-4275-88ec-e986b10e499b",
+            "Value": {
+                "id": "1a3e20f3-5b3e-4b15-a760-6b0cec3dc74a",
+                "resourcePath": "objects\\obj_pushableboxheavy\\obj_pushableboxheavy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e912097-0192-4b68-a657-64396604648c",
             "Value": {
                 "id": "bfc2129e-e6bd-4584-b55a-9f42ad8defe3",
@@ -67,6 +75,14 @@
             "Value": {
                 "id": "e78f75f5-023b-41ca-af16-332fa827d739",
                 "resourcePath": "objects\\prnt_actor\\prnt_actor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "330583c6-bf37-4275-9170-7254468e810f",
+            "Value": {
+                "id": "c1a4cad6-6ae4-4c44-bf8f-7c5a108ccb01",
+                "resourcePath": "objects\\obj_decorativeobject2\\obj_decorativeobject2.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "4fddc3f0-ebe9-46f2-8364-9b57b5c5b155",
+            "Value": {
+                "id": "cba459fe-6210-449f-a86a-c7fa03a8b313",
+                "resourcePath": "objects\\obj_pushablebox\\obj_pushablebox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "504ebc04-5ea0-4f6b-8027-50e4d7b362e0",
             "Value": {
                 "id": "a1155163-fe4f-40e9-9bac-e1f5d852d0e2",
@@ -215,10 +239,26 @@
             }
         },
         {
+            "Key": "6d2c1bd9-0fa6-4991-a629-44a73bdaf456",
+            "Value": {
+                "id": "2d49009e-41c3-4523-9931-15a8bc1a6c84",
+                "resourcePath": "objects\\obj_decorativeobject1\\obj_decorativeobject1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "74b017a0-5400-43cb-8c86-6a1b92010ece",
             "Value": {
                 "id": "5fd6715e-0e1e-4c71-a2fa-35b130389311",
                 "resourcePath": "objects\\tri_moveTriggerDown\\tri_moveTriggerDown.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "758f2e76-50e9-43d1-9ce8-da52f5f3a74a",
+            "Value": {
+                "id": "297bf761-9372-4e57-ac2c-5e751f3ed361",
+                "resourcePath": "objects\\obj_decorativeobject3\\obj_decorativeobject3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -287,6 +327,14 @@
             }
         },
         {
+            "Key": "9216fac3-9eaf-4c1e-a715-bff7503ca99a",
+            "Value": {
+                "id": "cbb76af3-05ea-49fc-b526-351d4b9cb8a6",
+                "resourcePath": "objects\\obj_decorativeobject5\\obj_decorativeobject5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "94574d42-efbe-4aea-a615-de206583be8a",
             "Value": {
                 "id": "fc13e42a-085d-4e50-aad0-bfe2be7dfe08",
@@ -303,11 +351,27 @@
             }
         },
         {
+            "Key": "9958b960-531d-400f-a224-b29e78d6c5bc",
+            "Value": {
+                "id": "9664a4d8-d77f-4347-a91f-c2187680db2c",
+                "resourcePath": "objects\\obj_decorativeobject4\\obj_decorativeobject4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9ebc79a5-e956-4aff-a3d6-3e76a17f93a7",
             "Value": {
                 "id": "19509e4a-4feb-4c18-b77a-d197c480fe69",
                 "resourcePath": "rooms\\rm_editor\\rm_editor.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9fc375e9-ffe7-4fe1-ad01-26975f505e83",
+            "Value": {
+                "id": "b9969326-767a-4d2e-99d8-3e31aea6885b",
+                "resourcePath": "objects\\obj_throwableBox\\obj_throwableBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -459,6 +523,14 @@
             "Value": {
                 "id": "565813e6-57e4-4bde-9718-b5b0bd24faf7",
                 "resourcePath": "objects\\tri_moveTriggerUp\\tri_moveTriggerUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2492b5a-fb20-4bc7-9da0-f1940ab89ca0",
+            "Value": {
+                "id": "12c8bbb3-6614-49d7-b387-ae6f19b87959",
+                "resourcePath": "objects\\obj_decorativeobject6\\obj_decorativeobject6.yy",
                 "resourceType": "GMObject"
             }
         },
