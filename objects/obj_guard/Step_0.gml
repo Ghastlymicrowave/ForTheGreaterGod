@@ -21,7 +21,7 @@ if(playerSeen<3||playerSeen=4)&&((directionToPlayer > dir-angle && directionToPl
 if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone &&collision_line(x,y,obj_player.x,obj_player.y,obj_pushablebox,true,true)=noone  &&collision_line(x,y,obj_player.x,obj_player.y,obj_throwableBox,true,true)=noone{
 lastDirectionToPlayer = directionToPlayer
 if playerSeen = 0 then playerSeen = 1
-if ticka = -1 ticka=60
+if ticka = -1 then ticka=60
 else if ticka>0{
 ticka--
 if playerSeen=2 then ticka=0
