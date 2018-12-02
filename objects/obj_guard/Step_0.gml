@@ -2,7 +2,7 @@ show_debug_message("start "+ string(playerSeen))
 directionToPlayer = point_direction(x,y,obj_player.x,obj_player.y)
 distanceToPlayer = distance_to_object(obj_player)
 
-if playerSeen=1{
+if playerSeen=1||playerSeen=3{
 speed=0
 dir = directionToPlayer
 }
@@ -10,7 +10,7 @@ dir = directionToPlayer
 //playerseen 0 unaware, 1, noticed, 2, investigating, 3, running, 4, lost player
 //direction = directionToPlayer
 //
-if(playerSeen<3)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle)){
+if(playerSeen<3||playerSeen=4)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle)){
 if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone    {
 lastDirectionToPlayer = directionToPlayer
 if playerSeen = 0 then playerSeen = 1
@@ -21,8 +21,8 @@ if playerSeen=2 then ticka=0
 if ticka=0{playerSeen=3;ticka=-1}
 }
 } else{
-	
-	 playerSeen = 0
+	if playerSeen!=2&&playerSeen!=4{
+	 playerSeen = 0}
 if ticka!=-1{
 playerSeen=2	
 }
@@ -35,15 +35,17 @@ playerSeen=2
 }
 
 }
-
+if playerSeen!=2 then seen2tick=0;
+if playerSeen!=4 then seen4tick=0;
 switch(playerSeen){
 	
 case 1: 
+firerate=20
 speed=0;
-seen2tick=0;
-seen4tick=0;
+
 break;
 case 2:
+firerate=20
 speed = 3;
 //PATHFIND TO lastplayerlocation
 direction = lastDirectionToPlayer;
@@ -53,19 +55,34 @@ seen2tick++
 if seen2tick=120 { playerSeen=0; direction = direction-180;seen2tick=0;}
 break;
 case 3:
-speed = 7
+speed = 0
+if distanceToPlayer > 600 then speed = 8 else {speed = 0
 direction = directionToPlayer
 lastDirectionToPlayer=directionToPlayer
+
+if firerate = 0{
+var proj = instance_create_depth(x,y,0,obj_projectile)
+proj.direction = directionToPlayer
+proj.speed = 18
+firerate=20
+} else{
+firerate --	
+}
+
 if (!(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle))) {
 playerSeen = 4;
-
+lastDirectionToPlayer=directionToPlayer
 break;
 }
-speed = 8;
+
 direction=directionToPlayer
-hspeed = round(hspeed);
-vspeed = round(vspeed);
+//	hspeed = round(hspeed);
+//vspeed = round(vspeed);
+break;
+}
+break;
 case 4:
+firerate=20
 seen4tick++
 if seen4tick=120 then {playerSeen=2; seen4tick=0;}
 speed = 5;
@@ -73,8 +90,8 @@ speed = 5;
 
 direction = lastDirectionToPlayer;
 //lastDirectionToPlayer = directionToPlayer
-hspeed = round(hspeed);
-vspeed = round(vspeed);
+//hspeed = round(hspeed);
+//vspeed = round(vspeed);
 break;
 }
 
@@ -96,17 +113,26 @@ if tick>0{
 if playerSeen <2{
 while place_meeting(x,y+vspeed,obj_obstacle){
     //vspeed -= sign(vspeed)
+	//y-=vspeed
     direction-=15
+	
 }
 
 while place_meeting(x+hspeed,y,obj_obstacle){
     //hspeed -= sign(hspeed)
     direction-=15
+	
+	//x-=hspeed
 }
 
 while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
     //speed --
     direction-=15
+	//speed --
+    
+   
+	//x-=hspeed
+	//y-=vspeed
     //hspeed = floor(abs(hspeed))sign(hspeed)
     //vspeed = floor(abs(vspeed))sign(vspeed)
 }
