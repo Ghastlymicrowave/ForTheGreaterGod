@@ -11,10 +11,20 @@ hinput= keyboard_check(ord("D")) - keyboard_check(ord("A"))
 if ((abs(vinput))||(abs(hinput))){
 	if spd <8 then spd ++
 	if !keyboard_check(vk_shift)||holding=1{
-	if spd > 6 then spd = 6} else
+	if spd > 4 then spd = 4
+	
+} else{
+		
+	
 if lastvinput=0 && lasthinput=0{
 	spd = 6
 }
+if instance_exists(obj_guard){
+obj_guard.angle=65}
+if instance_exists(obj_guardStill){
+obj_guardStill.angle=65}
+
+	}
 lastvinput = vinput
 lasthinput = hinput
 } else{
@@ -22,6 +32,13 @@ if spd > 0 then spd =spd -1
 else if spd <0 then spd =0
 vinput = lastvinput
 hinput = lasthinput
+}
+
+if spd <7{
+if instance_exists(obj_guard){
+obj_guard.angle=50}
+if instance_exists(obj_guardStill){
+obj_guardStill.angle=50}	
 }
 
 vspeed = vinput * spd

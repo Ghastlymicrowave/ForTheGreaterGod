@@ -17,8 +17,14 @@ speed=0
 //playerseen 0 unaware, 1, noticed, 2, investigating, 3, running, 4, lost player
 //direction = directionToPlayer
 //
+
 if(playerSeen<3||playerSeen=4)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle)){
 if collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone &&collision_line(x,y,obj_player.x,obj_player.y,obj_pushablebox,true,true)=noone  &&collision_line(x,y,obj_player.x,obj_player.y,obj_throwableBox,true,true)=noone{
+
+//if(playerSeen<2||playerSeen=4)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle)){
+	//if((!(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,1,1)=noone)&&(!(collision_line(x,y,obj_player.x,obj_player.y,obj_pushablebox,true,true)=noone))&&(!(collision_line(x,y,obj_player.x,obj_player.y,obj_throwableBox,true,true)=noone))&&
+	//if(!(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone)){
+//if !(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,1,1)=noone &&!collision_line(x,y,obj_player.x,obj_player.y,obj_pushablebox,true,true)=noone  &&!collision_line(x,y,obj_player.x,obj_player.y,obj_throwableBox,true,true)=noone)&&(!(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone)){
 lastDirectionToPlayer = directionToPlayer
 if playerSeen = 0 then playerSeen = 1
 if ticka = -1 then ticka=60
@@ -30,16 +36,16 @@ if ticka=0{playerSeen=3;ticka=-1}
 } else{
 	if playerSeen!=2&&playerSeen!=4{
 	 playerSeen = 0}
-if ticka>0{
-playerSeen=2	
-}
+//if ticka>0{
+//playerSeen=2	
+//}
 
     }
 }else{
 	if playerSeen =1 then playerSeen = 0
-if ticka!=-1{
-playerSeen=2	
-}
+//if ticka>0{
+//playerSeen=2	
+//}
 
 }
 if playerSeen!=2 then seen2tick=0;
@@ -53,7 +59,7 @@ speed=0;
 break;
 case 2:
 firerate=20
-speed = 3;
+speed = 2;
 //PATHFIND TO lastplayerlocation
 direction = lastDirectionToPlayer;
 hspeed = round(hspeed);
@@ -76,7 +82,7 @@ firerate=20
 firerate --	
 }
 
-if (!(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone)&&((directionToPlayer > dir-angle && directionToPlayer < dir+angle)or(directionToPlayer > 360+dir-angle && directionToPlayer < 360+dir+angle))) {
+if !(collision_line(x,y,obj_player.x,obj_player.y,obj_obstacle,true,true)=noone &&collision_line(x,y,obj_player.x,obj_player.y,obj_pushablebox,true,true)=noone  &&collision_line(x,y,obj_player.x,obj_player.y,obj_throwableBox,true,true)=noone) {
 playerSeen = 4;
 lastDirectionToPlayer=directionToPlayer
 break;
@@ -92,7 +98,7 @@ case 4:
 firerate=50
 seen4tick++
 if seen4tick=120 then {playerSeen=2; seen4tick=0;}
-speed = 5;
+speed = 3;
 //PATHFIND TO lastplayerlocation
 
 direction = lastDirectionToPlayer;
@@ -125,7 +131,7 @@ if place_meeting(x,y,obj_throwableThing){
 	var throw = instance_place(x,y,obj_throwableThing)
 	if throw.speed !=0{
 	knockbackTime=20
-	dazedtime=50
+	dazedtime=240
 	knockbackDir= throw.direction}
 }
 
@@ -139,7 +145,7 @@ direction = knockbackDir
 if knockbackTime > 0 {
 speed = knockbackTime	
 }
-if playerSeen <2{
+if playerSeen <2&&knockbackTime=0{
 while place_meeting(x,y+vspeed,obj_obstacle){
     //vspeed -= sign(vspeed)
 	//y-=vspeed
