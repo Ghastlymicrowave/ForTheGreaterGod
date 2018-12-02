@@ -111,3 +111,13 @@ if hp=0{
 speed=0
 instance_create_depth(x,y,-500,obj_deathMessage)
 }
+
+
+if keyboard_check_pressed(ord("F")){
+global.fullscreen=!(global.fullscreen)
+ini_open("save.dat")
+	ini_write_real("data","fullscreen",global.fullscreen)	
+ini_close()
+	window_set_fullscreen(global.fullscreen)
+}
+

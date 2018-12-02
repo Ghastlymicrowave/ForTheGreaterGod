@@ -112,12 +112,13 @@ direction = lastDirectionToPlayer;
 break;
 }
 
-if tick = -1&&place_meeting(x,y,prnt_trigger){
+if tick = -1&&place_meeting(x,y,prnt_trigger)&&playerSeen=0{
 	trigger = instance_place(x,y,prnt_trigger)
+	tick = 20
 	
 }
 
-if tick>0&&playerSeen=0{
+if tick>0{
     tick--
 
     if tick = 0{

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "prnt_trigger",
     "eventList": [
-        
+        {
+            "id": "bc0dada0-06ba-4437-bdad-2e79edd63268",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b86ce623-e5f6-4e60-82f3-b9cadf4724ca"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
