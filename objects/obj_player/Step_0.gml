@@ -1,6 +1,11 @@
 vinput= keyboard_check(ord("S")) - keyboard_check(ord("W"))  
 hinput= keyboard_check(ord("D")) - keyboard_check(ord("A"))
-
+//sprite_index=sp_idle
+//if vinput>0 then sprite_index=sp_up
+//if vinput<0 then sprite_index=sp_down
+//if hinput>0 then sprite_index=sp_right
+//if hinput<0 then sprite_index=sp_left
+//if knockbacktime>0 then sprite_index=sp_hurt
 
 //if image_angle > 360 then image_angle -= 360
 if ((abs(vinput))||(abs(hinput))){
