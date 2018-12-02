@@ -1,1 +1,0 @@
-objType = "obj_throwableBox"
