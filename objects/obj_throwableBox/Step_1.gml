@@ -28,21 +28,21 @@ ticka--
 }
 if bounced=1 then speed=0
 while place_meeting(x,y+vspeed,prnt_actor){
-	vspeed = -vspeed
+	vspeed -=sign(vspeed)
 	speed--
 	speed=round(speed)
 }
 
 while place_meeting(x+hspeed,y,prnt_actor){
-	hspeed =-hspeed
+	hspeed -=sign(hspeed)
 	speed--
 	speed=round(speed)
 }
 
 while place_meeting(x+hspeed,y+vspeed,prnt_actor){
 	speed --
-	hspeed =-hspeed
-	vspeed = -vspeed
+	hspeed -=sign(hspeed)
+	vspeed -=sign(vspeed)
 	speed=round(speed)
 }
 }

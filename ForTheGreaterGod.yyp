@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "35b8d951-0281-40c5-892d-da25e721563d",
+            "Value": {
+                "id": "8b9eb392-e49b-44e1-bdfb-e36869bccd6e",
+                "resourcePath": "rooms\\rm_sacraficeCutscene\\rm_sacraficeCutscene.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "35cd0ea7-0c51-40d5-aa94-bf5d3f63b3ec",
             "Value": {
                 "id": "e68787a9-92e7-4196-b36a-71f0b295ef38",
@@ -131,6 +139,14 @@
             "Value": {
                 "id": "00ce7644-80db-405f-b31d-0a7659426f33",
                 "resourcePath": "objects\\btn_start\\btn_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c076eff-12c0-4a09-9490-9c437fc857a3",
+            "Value": {
+                "id": "0da7edda-0279-4f87-b6a1-5ac52e8fe8de",
+                "resourcePath": "objects\\obj_cameraFollowingCutscene\\obj_cameraFollowingCutscene.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -319,6 +335,14 @@
             }
         },
         {
+            "Key": "7b55f637-9178-41e6-a181-6f1d5fd418c8",
+            "Value": {
+                "id": "fd7c5c00-6429-405c-a20f-a0a25298f3d2",
+                "resourcePath": "objects\\obj_endgoal\\obj_endgoal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e2709ac-3a2b-475c-b52b-69947da8f216",
             "Value": {
                 "id": "e79f4a0b-5780-4be1-a944-c6f4a3ee9bef",
@@ -503,6 +527,14 @@
             }
         },
         {
+            "Key": "baf29ef9-2f5c-4ded-8c4c-c212ced62f5d",
+            "Value": {
+                "id": "9fe13807-5c7b-4e03-b0f0-fe249c3b9a1e",
+                "resourcePath": "objects\\obj_winMessage\\obj_winMessage.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "be9c9c3a-5f2a-4811-b3ee-2d4651cbaf67",
             "Value": {
                 "id": "6ff85811-ebdc-4ed8-92ed-27c316d3614c",
@@ -668,6 +700,14 @@
                 "id": "a3ef7d4b-39b3-4aac-86d3-4519c5ea1abf",
                 "resourcePath": "scripts\\scr_rooms_build\\scr_rooms_build.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "fd511da9-9f5f-4dd4-8581-cf01c11b24bd",
+            "Value": {
+                "id": "681de676-2023-446a-be52-f3c5a03ace7a",
+                "resourcePath": "objects\\obj_cutscene\\obj_cutscene.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
