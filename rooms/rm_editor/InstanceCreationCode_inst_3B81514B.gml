@@ -1,1 +1,1 @@
-objType = "obj_throwablebox"
+objType = "obj_pushableboxheavy"

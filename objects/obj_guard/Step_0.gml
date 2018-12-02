@@ -1,7 +1,7 @@
 show_debug_message("start "+ string(playerSeen))
 directionToPlayer = point_direction(x,y,obj_player.x,obj_player.y)
 distanceToPlayer = distance_to_object(obj_player)
-
+if(!place_meeting(x,y,obj_obstacle)){
 if playerSeen=1||playerSeen=3{
 speed=0
 dir = directionToPlayer
@@ -204,7 +204,7 @@ if speed!=0 then dir = direction
 show_debug_message("end "+ string(playerSeen))
 
 
-
+}
 //if place_meeting(x+hspeed,y+vspeed,obj_throwableThing){
 //	var throw = instance_place(x+hspeed,y+vspeed,obj_throwableThing)
 //		if throw.held =0&& throw.bounced=0{
