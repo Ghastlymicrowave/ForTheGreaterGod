@@ -123,3 +123,9 @@ ini_close()
 	window_set_fullscreen(global.fullscreen)
 }
 
+if place_meeting(x,y,obj_healthpack)&&hp<2&&hp>0{
+	hp++
+	var pack instance_place(x,y,obj_healthpack)
+	instance_destroy(pack)
+}
+
