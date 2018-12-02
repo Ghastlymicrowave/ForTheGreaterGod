@@ -162,3 +162,17 @@ if speed!=0 then dir = direction
 //direction -= 360sign(direction)
 //}
 show_debug_message("end "+ string(playerSeen))
+
+//if place_meeting(x+hspeed,y+vspeed,obj_throwableThing){
+//	var throw = instance_place(x+hspeed,y+vspeed,obj_throwableThing)
+//		if throw.held =0&& throw.bounced=0{
+//		throw.speed=speed+5
+//		throw.direction= dir
+//		throw.bounced++
+//		spd =0
+//		speed=0
+//		if speed <0 then speed =0
+//		hspeed = floor(abs(hspeed))*sign(hspeed)
+//	vspeed = floor(abs(vspeed))*sign(vspeed)}
+	
+//}

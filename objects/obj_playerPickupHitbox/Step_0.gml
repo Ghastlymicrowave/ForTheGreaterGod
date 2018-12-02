@@ -1,8 +1,10 @@
 x=obj_player.x
 y=obj_player.y-7
-speed=25
+speed=20
 direction = point_direction(x,y,mouse_x,mouse_y)
-motion_set(direction,speed)
+//motion_set(direction,speed)
+x+=hspeed
+y+=vspeed
 
 image_xscale = (x<mouse_x)*2-1
 

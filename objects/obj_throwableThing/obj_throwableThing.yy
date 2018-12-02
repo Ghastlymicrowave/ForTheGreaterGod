@@ -20,7 +20,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 1,
             "eventtype": 3,
             "m_owner": "3c5c1d25-4991-4c81-8b8e-9d656b0d72bc"
         }
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "05551608-9365-4753-a3b5-e5ba826f5560",
+    "spriteId": "c592cb61-e810-453c-9056-627f2e314969",
     "visible": true
 }
