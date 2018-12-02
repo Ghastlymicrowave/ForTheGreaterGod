@@ -98,6 +98,7 @@ if place_meeting(x+hspeed,y+vspeed,obj_pushablebox){
 
 if place_meeting(x,y,obj_projectile)&&invulframes=0{
 var proj = instance_place(x,y,obj_projectile)	
+obj_cameraFollowing.screenshake +=20
 knockbackDir = proj.direction
 knockbackTime=15
 invulframes=60

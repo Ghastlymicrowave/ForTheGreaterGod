@@ -12,12 +12,15 @@ if place_meeting(x,y,obj_throwableThing)&&mouse_check_button_pressed(mb_left){
 var throw =instance_place(x,y,obj_throwableThing)
 throw.held =1
 obj_player.holding=1
-} else if place_meeting(x,y,obj_guard)&&mouse_check_button_pressed(mb_left)&&obj_player.holding=0{
+} else if place_meeting(x,y,prnt_enemy)&&mouse_check_button_pressed(mb_left)&&obj_player.holding=0{
 	
-	var guard = instance_place(x,y,obj_guard)
+	obj_cameraFollowing.screenshake +=20
+	var guard = instance_place(x,y,prnt_enemy)
+
 	with (guard){
     instance_change(obj_corpse,1)
 	speed = 8
 	direction=obj_playerPickupHitbox.direction
 	}
+	
 }

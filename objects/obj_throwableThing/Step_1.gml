@@ -13,6 +13,7 @@ x+=hspeed*2
 y+=vspeed*2
 obj_player.holding=0
 held = 0
+obj_cameraFollowing.screenshake +=20
 } else{
 speed=0
 direction=0
