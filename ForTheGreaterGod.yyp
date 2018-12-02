@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "4d80f75e-93a3-4893-8cc3-1babab5f5379",
+            "Value": {
+                "id": "7da5ca4b-616b-448f-b911-3940f0ec8601",
+                "resourcePath": "sprites\\sp_wallTiles\\sp_wallTiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4df4e7e2-7dc2-452c-adcd-dc0398dfdc26",
             "Value": {
                 "id": "51f67af8-d5c7-4a51-a44a-0e3a1fb7061e",
