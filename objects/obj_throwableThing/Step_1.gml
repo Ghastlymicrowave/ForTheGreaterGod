@@ -13,7 +13,6 @@ x+=hspeed*2
 y+=vspeed*2
 obj_player.holding=0
 held = 0
-obj_cameraFollowing.screenshake +=20
 } else{
 speed=0
 direction=0
@@ -32,12 +31,14 @@ while place_meeting(x,y+vspeed,obj_obstacle){
 	vspeed -=sign(vspeed)
 	speed--
 	speed=round(speed)
+	obj_cameraFollowing.screenshake =10
 }
 
 while place_meeting(x+hspeed,y,obj_obstacle){
 	hspeed -=sign(hspeed)
 	speed--
 	speed=round(speed)
+	obj_cameraFollowing.screenshake =10
 }
 
 while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
@@ -45,6 +46,7 @@ while place_meeting(x+hspeed,y+vspeed,obj_obstacle){
 	hspeed -=sign(hspeed)
 	vspeed -=sign(vspeed)
 	speed=round(speed)
+	obj_cameraFollowing.screenshake =10
 }
 }
 if speed <1&& speed>-1 then speed = 0

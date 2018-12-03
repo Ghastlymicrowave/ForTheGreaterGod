@@ -1,0 +1,1 @@
+objType = "tri_moveTriggerUp"
