@@ -4,7 +4,7 @@ x= obj_playerPickupHitbox.x+obj_playerPickupHitbox.hspeed
 y = obj_playerPickupHitbox.y+obj_playerPickupHitbox.vspeed
 
 
-if mouse_check_button_pressed(mb_right)&&!place_meeting(x,y,prnt_actor){
+if mouse_check_button_pressed(mb_right)&&!place_meeting(x,y,obj_obstacle){
 
 direction = obj_playerPickupHitbox.direction
 speed = 15
